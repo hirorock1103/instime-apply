@@ -1,0 +1,5 @@
+public/.htaccess
+public/.htpasswd
+public/*
+!public/apply/
+!public/apply/index.html
