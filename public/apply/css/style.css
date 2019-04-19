@@ -2071,3 +2071,66 @@ ul.slides li img {
     height: auto;
   border-bottom:5px solid #66cdaa;
 }
+
+
+
+/**** add basic ****/
+
+div.login-container{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+div.login-container div.form-content{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    border-radius: 5px; 
+    border: 1px solid #ccc;
+    background: #ddd;
+    margin-bottom: 30px;
+
+}
+
+div.login-container input{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 8px 5px;
+    margin-bottom: 10px;
+    background: #fff;
+    margin-left: 5px;
+}
+
+div.login-container div.item{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+div.login-container div.title{
+    font-size: 12px;
+    line-height: 33px;
+
+}
+
+div.login-container button {
+  margin-top: 20px;
+  position: relative;
+  display: inline-block;
+  padding: 0.8em 0.5em;
+  text-decoration: none;
+  color: #FFF;
+  background: #03A9F4;/*色*/
+  border: solid 1px #0f9ada;/*線色*/
+  border-radius: 4px;
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.2);
+  text-shadow: 0 1px 0 rgba(0,0,0,0.2);
+}
+
+div.login-container button:active {
+  /*押したとき*/
+  border: solid 1px #03A9F4;
+  box-shadow: none;
+  text-shadow: none;
+}
